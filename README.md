@@ -1,32 +1,23 @@
-# Named-Entity-Recognition using LSTMs with Keras
+# Topic-Modelling-using-Latent Dirichlet Allocation (LDA) 
 
-A keras implementation of Bidirectional-LSTM for Named Entity Recognition.
+Topic modeling is the process of identifying topics in a set of documents. 
 
-Trained a Bidirectional LSTM Neural Network to recognize named entities in text data.
+This can be useful for search engines, customer service automation, and any other instance where knowing the topics of documents is important.
 
+I used Latent Dirichlet Allocation (LDA) Algorithm.
 
-## Data Preparation (optional)
+## Dataset (optional)
 
-The [dataset](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus#ner_dataset.csv) is available as a single csv file.
+The [dataset](https://www.kaggle.com/austinreese/trump-tweets) is available as a single csv file.
 
 ### Technologies Used
 ```
-1.Bidirectional LSTM
+1.NLTK
 
-2.Keras
+2.LDA
 
-3.Tensorflow
-
-4.Python
+3.Python
 ```
-
-### Result
-
-This was the graph we obtained after training the Neural Network.
-
-<img src ="graph.PNG"  width=700 height=500>
-<br>
-
 
 ### Author 
 ```
